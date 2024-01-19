@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wheather-app">
+        <h1>Weather Details</h1>
+        <div class="header">
+            <div class="search-box">
+                <input type="text" class="input" placeholder="Enter City Name">
+                <button class="button">search </button>
+            </div>
+            <div class="inner">
+                <div class="main">
+                    <span class="value temp"></span>
+                    <span class="image">
+                        <img src="" alt="">
+                    </span>
+                </div>
+                <div class="city">
+                    <span class="label city-labe">city: </span>
+                    <span class="value city-name"></span>
+                </div>
+                <div class="city">
+                    <span class="label city-labe">country: </span>
+                    <span class="value country-name"></span>
+                </div>
+                <div class="div-winspeed">
+                    <span class="label">windspeed: </span>
+                    <span class="value windspeed"></span>
+                </div>
+                <div class="div-humidity">
+                    <span class="label humidity-label">humidity: </span>
+                    <span class="value humidity"></span>
+                </div>
+            </div>
+            <div class="error">
+               <sup>*</sup> Please Enter Valid City Name
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
